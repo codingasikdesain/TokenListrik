@@ -1,0 +1,186 @@
+.arrow i {
+      color: var(--gray-color);
+      background: aliceblue;
+      padding: 5px;
+      padding-left: 9px;
+      padding-right: 9px;
+      border-radius: 10px;
+    }
+
+    .offcanvas-body {
+      padding-top: 55px;
+    }
+
+    .box-details {
+      padding: 15px;
+      padding-top: 0px;
+      background: var(--white-color);
+      border-top: 5px solid var(--my-color);
+      border-radius: 15px !important;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+
+    .icon-detail {
+      text-align: center;
+      border-bottom: 3px dashed #f1f1f1;
+      padding-bottom: 7px;
+      margin-bottom: 5px;
+    }
+
+    .icon-detail img {
+      width: 60px;
+      border-radius: 100px;
+      background: white;
+      padding: 5px;
+      position: relative;
+      top: -25px;
+      border: 2px solid var(--my-color);
+    }
+
+    .icon-detail p {
+      font-size: 14px;
+      font-weight: bold;
+      color: var(--my-color);
+      margin-top: -20px;
+    }
+
+    .detail-pembelian {
+      background: var(--white-color);
+      padding: 15px;
+      border-radius: 10px;
+      border: 2px dashed var(--my-color);
+    }
+
+    .detail-pembelian h5 {
+      font-size: 14px;
+      font-weight: 500;
+      color: black;
+    }
+
+    .detail-pembelian h6 {
+      font-size: 13px;
+      font-weight: 400;
+      color: black;
+      margin-bottom: 0px !important;
+    }
+
+    .name {
+      font-size: 500;
+    }
+
+    .tag-produk {
+      text-align: left;
+      font-size: 12px;
+      color: gray;
+      margin: 0px;
+    }
+
+    .scans,
+    .scans:hover {
+      color: var(--my-color);
+    }
+
+    .t-name h5 {
+      font-weight: bold;
+      color: var(--my-color);
+      margin-left: 0px;
+    }
+
+    .harga-item {
+      font-weight: 600 !important;
+    }
+
+    .loading {
+      --speed-of-animation: 0.9s;
+      --gap: 6px;
+      --first-color: #4c86f9;
+      --second-color: #49a84c;
+      --third-color: #f6bb02;
+      --fourth-color: #f6bb02;
+      --fifth-color: #2196f3;
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 6px;
+      z-index: 100000000;
+      z-index: 0;
+      height: auto;
+      margin-top: 10px;
+    }
+
+    .loading span {
+      z-index: 0;
+      width: 6px;
+      height: 50px;
+      position: relative;
+      background: var(--first-color);
+      animation: scale var(--speed-of-animation) ease-in-out infinite;
+    }
+
+    .loading span:nth-child(2) {
+      background: var(--second-color);
+      animation-delay: -0.8s;
+    }
+
+    .loading span:nth-child(3) {
+      background: var(--third-color);
+      animation-delay: -0.7s;
+    }
+
+    .loading span:nth-child(4) {
+      background: var(--fourth-color);
+      animation-delay: -0.6s;
+    }
+
+    .loading span:nth-child(5) {
+      background: var(--fifth-color);
+      animation-delay: -0.5s;
+    }
+
+    @keyframes scale {
+
+      0%,
+      40%,
+      100% {
+        transform: scaleY(0.05);
+      }
+
+      20% {
+        transform: scaleY(1);
+      }
+    }
+
+    .scans {
+      font-size: 22px;
+      padding-left: 15px;
+      margin-top: 3px;
+      margin-left: 5px;
+    }
+
+    .btn-ubah {
+      width: 100% !important;
+      margin: 0px !important;
+    }
+
+    .btn-beli {
+      margin: 0px !important;
+    }
+    .codingasik-produk{
+      position: relative;
+    }
+    .harga-promo{
+      position: absolute;
+      top: 0;
+      right: 10px;
+    }
+    .harga-promo p{
+    background: red;
+      color: white;
+      font-size: 11px;
+      padding-top: 3px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 0px 0px 10px 10px;
+    }
